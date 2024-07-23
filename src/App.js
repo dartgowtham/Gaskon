@@ -1,26 +1,24 @@
-import About_us from "./Components/About_us";
-import Client from "./Components/Client";
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Foot";
-import Feedback from "./Components/Feedback"
-import Contact_us from "./Components/Contact_us";
-import Thinking from "./Components/Thinking";
-import Real from "./Components/Real";
+ import Navbar from "./Components/Global/Navbar";
+ import Footer from "./Components/Global/Foot";
+import About_us from "./Components/About_us/About_us";
+import Home from "./Components/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact_us from "./Components/Contact_Us/Contact_us";
  
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Home/>
-      <About_us/>
-      <Client/>
-      <Thinking/>
-      <Real/>
-      <Contact_us/>
-    <Feedback/>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home/>}></Route>
+    <Route path="/about_us" element={<About_us />}></Route>
+    <Route path="/contact_us" element={<Contact_us />}></Route>
+      </Routes>
+      </BrowserRouter>
       <Footer/>
+
     </div>
   );
 }

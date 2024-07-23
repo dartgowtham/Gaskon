@@ -1,28 +1,35 @@
 .client{
     display: flex;
     flex-direction: column;
-   align-self: center;
+    align-self: center;
+     
     
 }
 .client .top{
     display: flex;
-    justify-content: start;
+    justify-content:space-evenly;
     margin-left: 70px;
     align-items: center;
+    gap:300px;
 }
 .client .top .left h1{
     width: 684px;
     font-size: 48px;
     line-height: 62.4px;
     font-weight: 600;
+    margin-right: 100px;
 }
 .client .top .right ul{
     list-style-type: none;    
+    display: flex;
+    flex-direction: column;
+ 
 }
 .client .top .right ul li{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 .client .bottom {
     width: 1331px;

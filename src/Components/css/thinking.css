@@ -54,6 +54,10 @@ padding: 10px;
     font-weight: 600;
     line-height: 28.8px;
 }
+.lists .card img{
+    width: 20px;
+    height: 20px;
+}
 
 .lists .card:hover p{
  width: 100%;
