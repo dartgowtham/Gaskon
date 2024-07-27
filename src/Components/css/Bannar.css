@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .home_right{
     display: flex;
@@ -67,4 +68,69 @@
     color: white;
     cursor: pointer;
 }
- 
+.home_right .citys{
+    width:308px;
+    height:281px;
+}
+
+@media screen and (max-width: 768px) {
+    #home{
+        flex-direction: column;
+        width: 320px;
+
+    }
+    #home .home_right{
+        order: -2;
+    }
+    .group {
+        position: relative;
+        margin-right: 20px;
+        margin-left: 10px;
+     
+    }
+    .home_right .citys{
+        width:140px;
+        height: 150px;
+    }
+    .image2 {
+        width: 100px;
+        left: 40px;
+    }
+    .rii{
+        width: 110px;
+        height: 150px;
+    }
+    .image4{
+        width: 270px;
+        padding: 10px;
+    }
+.home_left{
+    width:auto;
+    margin-right: 200px;
+}
+    .home_left .top .title{ 
+        font-size: 30px;
+        width: 280px;
+        margin-left: 200px;
+        line-height: normal;
+
+    }
+
+
+    .content{
+        font-size: 14px;
+        width: 270px;
+        margin-left: 200px;
+        text-align: left;
+    }
+    
+    .mid .btn{
+        margin-left: 200px;
+    }
+    
+    #home .home_left .bottom{
+      width: 300px;
+      margin-left:200px;
+    }
+
+}

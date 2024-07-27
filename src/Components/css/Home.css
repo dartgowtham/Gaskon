@@ -1,15 +1,15 @@
-#home{
+#homee{
     
     background-image: url("../../Images/home_bg.png");
     
 }
-#home .home{
+#homee .homee{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.home .head{
+.homee .head    {
     width: 1240px;
     font-size: 46px;
      font-weight: 600;
@@ -18,7 +18,7 @@
 
 }
  
-.content{
+.contente{
     color:#666A6F;
     width: 1240px;
     font-size: 16px;
@@ -46,15 +46,16 @@
 .company .group img{
     width: 150px;
 }
+
  
 
 @media (max-width: 768px) {
-    .home .head {
+    .homee .head {
         width: auto;
         font-size: 30px;
         line-height: 1.2;
     }
-    .content {
+    .contente {
         max-width: fit-content;
         padding: 10px;
         font-size: 14px;

@@ -45,3 +45,29 @@
     border-bottom: solid;
     padding-bottom: 10px;    
 }
+
+@media  screen and (max-width: 768px) {
+    .contactus{
+        flex-direction: column;
+    }
+    .contactus .left h2{
+        width: 300px;
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .contactus .left p{
+        margin: 0;
+    }
+    .contactus .left .grp1 .btn{
+        width: 170px;
+        height: 48px;
+    }
+.contactus .left .grp1{
+    align-items: center;
+    gap: 30px;
+    margin-top:20px;
+}
+.contactus .right h4{
+    width: 300px;
+}
+}

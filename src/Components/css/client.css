@@ -23,7 +23,6 @@
     list-style-type: none;    
     display: flex;
     flex-direction: column;
- 
 }
 .client .top .right ul li{
     display: flex;
@@ -63,5 +62,44 @@
     height: 400px;
 }
 
+@media screen and (max-width: 768px) {
+    .client .top{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 0px;
+    }
+    .client .top .left h1{
+        width: 300px;
+        font-size: 30px;
+        line-height: normal;
+    }
+    .client .top .right ul{
+        width: 300px;
+    }
+    .client .bottom {
+        width: 300px;
+    }
+    .client .bottom p{
+        font-size: 14px;
+    }
+    .client .group{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        gap: 35px;
+    }
+    .client .group img{
+        width:250px; 
+        height: 250px;
+        transition: all 0.3s
+    }
+    .client .group img:hover{
+        width:300px; 
+        height: 300px;
+    }
 
+}
+
+ 

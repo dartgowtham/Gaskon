@@ -10,11 +10,11 @@ import img5 from '../../Images/Company/img5.png'
  export default function Home() {
    return (
     <>
-    <div id='home'>
-     <div className='home'> 
+    <div id='homee'>
+     <div className='homee'> 
       <h1 className='head'>Navigating Vast Business Horizons and Unlocking Limitless Opportunities with Gaskon Consulting's Strategic Brilliance and Innovative Solutions</h1>
      <img src={Home_img} alt='d' className='home_img'/>
-     <p className='content'>Discover a realm of unparalleled business potential on our Business Opportunities. At Gaskon Consulting, we redefine success by offering strategic brilliance and innovative solutions. Navigate vast horizons, seize limitless opportunities, and transform your business future with us. Explore the possibilities and chart your course to prosperity.</p>
+     <p className='contente'>Discover a realm of unparalleled business potential on our Business Opportunities. At Gaskon Consulting, we redefine success by offering strategic brilliance and innovative solutions. Navigate vast horizons, seize limitless opportunities, and transform your business future with us. Explore the possibilities and chart your course to prosperity.</p>
      </div>
      </div>
      <div className='company'>

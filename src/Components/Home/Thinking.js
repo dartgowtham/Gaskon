@@ -49,9 +49,7 @@ export default function Thinking() {
              <h4>Proven Track Record of Success</h4>
              <p>Consulting services that empower companies</p>
         </div>    
-      
     </div>
-       
     </div>
   )
 }

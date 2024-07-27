@@ -1,0 +1,96 @@
+#our_team{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.our_team{
+    background-image: url(../../../Images/Team.png);
+    width: 1250px;
+    height: 495px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+}
+.our_team p{
+    width: 600px;
+    font-size: 16px;
+    line-height: 28.4px;
+    color: white;
+    margin:20px;
+}
+
+.our_team h1{
+    width: 600px;
+    font-size: 48px;
+    line-height: 76.4px;
+    color: white;
+    margin:20px;
+}
+.our_team .mid .btn{
+    margin: 20px;
+}
+.grpd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.grpd .iteme{
+    width: 410px;
+    height: 469px;
+}
+.grpd .iteme p{
+    font-size: 24px;
+    font-weight:500 ;
+}
+.joine{
+    width: 100%;
+    background-image: url("../../../Images/Background_Noise.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+
+.joine .jj img{
+    width: 400px;
+    padding: 10px;
+}
+.joine h2{
+    font-size: 48px;
+    margin: 0;
+}
+.joine p{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .our_team{
+        width: 100%;
+
+    }
+    .our_team h1{
+        width: 250px;
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .our_team p{
+    width: 250px;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    }
+    .grpd .iteme{
+        width: 300px;
+    }
+    .grpd .iteme .mem {
+       width: 200px;
+   
+    }
+}

@@ -13,8 +13,8 @@ export default function Home() {
         <Bannar/>
         <About_us/>
         <Client/>
-        <Real/>
         <Thinking/>
+        <Real/>
         <Contact_us/>
     </div>
   )

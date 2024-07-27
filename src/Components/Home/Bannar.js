@@ -43,16 +43,16 @@ export default function Home() {
         <div className='home_right'>
             <div className='top'>
             <div className='group'>
-            <img src={city} alt="Image 1" width="308px" height="281"/>
+            <img src={city} alt="Image 1" className='citys'/>
             <img src={group} alt='image 2' className='image2'/>
             </div>
             <div>
-            <img src={count} alt='image 3'/>
+            <img src={count} alt='image 3' className='rii'/>
             </div>
             </div>
             <br/>
             <div>
-            <img src={img3} alt='image 4'/>
+            <img src={img3} alt='image 4' className='image4'/>
             </div>
         </div>
 
