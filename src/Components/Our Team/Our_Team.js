@@ -21,10 +21,10 @@ export default function Our_Team() {
             </div>
         </div>
         <div className='grpd'>
-            <div className='iteme'>
+            <div className='itme'>
                
                 <p> 
-                <img src={dot} alt='demo' style={{marginRight:"10px"}}/>
+                <img src={dot} alt='demo' style={{marginRight:"10px"}} className='dot'/>
                 Our Leadership Team</p>
             
                 <h1>Meet our Visionaries</h1>
@@ -57,11 +57,11 @@ export default function Our_Team() {
         </div>
 
         <div className='joine'>
-            <div>
+            <div className='le'>
                 <h2>Want to join our team?</h2>
                 <p>Our creative team is looking for you.</p>
                 <div className='mid'>
-            <button className='btn'>See Career <img src={arrow} alt='d'/></button>
+            <button className='btno'>See Career <img src={arrow} alt='d'/></button>
             </div>
             </div>
             <div className='jj'>
@@ -70,10 +70,10 @@ export default function Our_Team() {
         </div>
 
         <div className='grpd'>
-            <div className='iteme'>
+            <div className='itme'>
                
                 <p> 
-                <img src={dot} alt='demo' style={{marginRight:"10px"}}/>
+                <img src={dot} alt='demo' style={{marginRight:"10px"}} className='dot'/>
                 Our Advisory Board</p>
             
                 <h1>Meet our Visionaries</h1>

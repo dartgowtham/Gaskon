@@ -33,12 +33,21 @@ const TestimonialSlider = () => {
 
   const prevSlide = () => {
     setCurrentSlide(currentSlide === 0 ? testimonials.length - 1 : currentSlide - 1);
-  };
+  } 
 
   return (
     <div className="testimonial-slider">
-        
+      
       <div className="testimonial">
+      <div className='author-details-top'>
+          <div className='aui'>
+          <img src={ceo} alt='f' className='auimg'/>
+          </div>
+        <div className='text-box'>
+        <p className=".names"> {testimonials[currentSlide].author}</p>
+        <p className="author-role"> {testimonials[currentSlide].role}</p>
+      </div>
+      </div> 
         <h3 className="quote">{testimonials[currentSlide].quote}</h3>
         </div>
       <div className='bottom'>

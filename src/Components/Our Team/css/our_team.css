@@ -37,11 +37,11 @@
     justify-content: center;
     gap: 20px;
 }
-.grpd .iteme{
+.grpd .iteme,.itme{
     width: 410px;
     height: 469px;
 }
-.grpd .iteme p{
+.grpd .itme p{
     font-size: 24px;
     font-weight:500 ;
 }
@@ -68,6 +68,21 @@
 .joine p{
     font-size: 16px;
 }
+.mid .btno{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 58px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #007bff, #6610f2);
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
     .our_team{
@@ -86,11 +101,41 @@
     margin-top: 7px;
     margin-bottom: 0;
     }
-    .grpd .iteme{
-        width: 300px;
-    }
-    .grpd .iteme .mem {
-       width: 200px;
+    
    
+    .grpd .iteme{
+        width: 290px;
+        height: 250px;
     }
+    .grpd .itme{
+        width: 290px;
+        height: 200px
+    }
+    
+    .grpd .iteme img:not(.dot){
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+    .joine{
+        flex-direction: column;
+    }
+    .joine .jj{
+        order: -1;
+    }
+    .joine .jj img{
+        width: 300px;
+        padding: 0;
+    }
+    .joine h2{
+        width: 240px;
+        font-size: 30px;
+    }
+    .joine p{
+        font-size: 14px;
+    }
+    .le{
+        margin-bottom: 30px;
+    }
+
 }
