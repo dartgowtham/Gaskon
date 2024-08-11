@@ -1,0 +1,113 @@
+.kbannar{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 50px;
+   color: white;
+}   
+
+.klists{
+    display: flex;
+    justify-content: center;
+    gap:30px
+
+}
+.kli{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.kli p{
+    width: 300px;
+}
+.klimg{
+    width: 35px;
+    height: 35px
+}
+.core_ver{
+    background-image:url('../Image/bg2.png');
+    height: 700px;
+}
+.glass {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+   top: 300px;
+    left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(40px); /* Adjust blur amount here */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: center;
+}
+.cpimg{
+    position:relative;
+    width: 500px;
+}
+.sps{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white; /* Semi-transparent background */
+    backdrop-filter: blur(100px); /* Adjust blur amount here */
+    border: 1px solid rgba(255, 255, 255, 0.3);     
+    padding: 10px;
+}
+.pos{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    background: rgb(255, 255, 255); /* Semi-transparent background */
+    backdrop-filter: blur(40px); /* Adjust blur amount here */
+    border: 1px solid rgba(255, 255, 255, 0.3);     
+    padding: 10px;
+}
+.highlight{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.cpcard-title{
+    margin: 0;
+}
+.plocat{
+    display: flex;
+    width: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    color: #767676;
+}
+.cur_pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    width: 1117px;
+    position: relative;
+    bottom:80px;
+    left: 200px;
+}
+.crow{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 1117px;
+    align-items: center;
+}
+.cur_tit{
+    align-self: flex-start;
+    margin-left: 26px;
+}
+.pcas p{
+    padding: 5px;
+    margin: 0;
+    color: #767676; 
+    font-size: 14px;
+}

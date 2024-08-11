@@ -1,0 +1,31 @@
+.pccon{
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.pccard{
+    width: 330px;
+    padding: 20px;
+}
+#bb{
+    border-right: 1px dashed gray;
+    border-left: 1px dashed gray;
+
+}
+.cens{
+    display: flex;
+    justify-content: center;
+}
+.sban{
+    background-color: #E5A811;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.scons{
+    color: white;
+}

@@ -1,0 +1,38 @@
+.pcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px   ;
+}
+.phleft{
+    width: 304px;
+}
+.phright{
+    width: 304px;
+    text-align: right;
+}
+.sub_pcon{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   height: 180px;
+}
+
+.phighlights{
+    width: fit-content;
+    padding: 5px;
+    background-color: #F3EBCF;
+    font-size: 10px;
+}
+.phighlightsr{
+    margin-left: 227px;
+    width: fit-content;
+    padding: 5px;
+    background-color: #F3EBCF;
+    font-size: 10px;
+}
+.ptitss{
+    margin:0;
+    padding: 0;
+    align-self: baseline;
+}

@@ -1,0 +1,24 @@
+ .pgal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ .pitem1{
+    display: flex;
+    align-items: center;
+
+
+ }
+ .ptit{
+    width: 500px;
+ }
+ .pitem{
+    padding: 10PX;
+ }
+ .spimg{
+    position: relative;
+    bottom: 110px;
+    right: 10px;
+    height: 480px;
+ }

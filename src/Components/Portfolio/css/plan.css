@@ -1,0 +1,63 @@
+.plcon{
+    margin-top: 40px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.plleft{
+    width: 500px;
+}
+
+.pllift{
+    font-size: 20px;
+}
+.plleft p{
+    color:#767676;
+}
+.plright img{
+    width: 500px;
+}
+
+.pllefti img{
+    width: 600px;
+}
+ 
+.plrighti{
+    width: 500px;
+}
+.plrighti p{
+    color: #767676;
+}
+.stab{
+    display: flex;
+    justify-content: center;
+}
+td,th{
+    width: 290px;
+    height: 50px;
+    color: #767676;
+    border-right: 1px solid;
+     
+}
+  .hightab{
+    background-color: #F3EBCF;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 1px solid;
+}
+ 

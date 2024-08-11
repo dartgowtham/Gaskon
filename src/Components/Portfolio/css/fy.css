@@ -1,0 +1,20 @@
+.fcon{
+    background-image: url('../Image/bg3.png');
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.sub_fcon{
+    display: flex;
+    gap: 40px;
+}
+.fcon h2{
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+    margin-top: 130px;
+}

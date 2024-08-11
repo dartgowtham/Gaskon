@@ -1,0 +1,53 @@
+.econs{
+display: flex;
+flex-direction: column;
+}
+.etop{
+ margin-left: 150px;
+
+}
+.eccons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-left: 150px;
+}
+.etop{
+    width: 500px;
+}
+
+.etits h2{
+    color: #414141;
+}
+.subetit p{
+    color: #767676;
+}
+
+.ecard{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.ehead p{
+    color: #767676;
+
+}
+.imap .cmap{
+    width: 500px;
+}
+
+.citems{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+}
+.citems p{
+    color: #767676;
+}
+.citems p span{
+    color: #767676;
+    font-weight: 500;
+}
